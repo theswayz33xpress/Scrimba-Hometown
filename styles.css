@@ -1,0 +1,107 @@
+/**
+Palette: https://coolors.co/442a14-353d61-212517-24663d-989ea0
+Cafe Noir: #442A14
+Space Cadet: #353D61
+Pine Tree: #212517
+Cadmium Green: #24663D
+Spanish Gray: #989EAO
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.Hero {
+    background-image: url("images/stl.jpg");
+    background-size: cover;
+    height: 250px;
+    padding: 30px;
+    color: #989EA0;
+    text-shadow: 0px 0px 2px #442A14;
+}
+
+#welcome {
+    color: #24663D;
+}
+
+a {
+    color: #989EA0
+}
+
+.Activities {
+    background-color: #24663D;
+    padding: 10px;
+    color: #442A14;
+    text-shadow: 0px 0px 2px #353D61;
+    
+}
+
+#top_att {
+    margin-top: 5px;
+}
+.places {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.favs {
+    border-radius: 50%;
+}
+
+.arch {
+    margin: 0px 10px 0px 10px;
+}
+
+#grounds {
+    height: 90px;
+}
+
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin: 40px auto;
+    background-color: #353D61;
+    color: #212517;
+    text-shadow: 0px 0px 4px #442A14;
+    border-radius: 10px 50px;
+    border-bottom: 15px solid #989EA0;
+}
+
+.Ben {
+    color: #24663D;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #212517;
+    width: 330px;
+    height: 180px;
+    background-image: url("images/blues.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.Ben:hover {
+    background-image: url("images/Ben.png");
+}
+
+@font-face {
+    src: url("Laclede.ttf");
+    font-family: louis;
+}
+
+.Follow {
+    width: 200px;
+}
+
+#quote {
+    font-family: louis;
+}
